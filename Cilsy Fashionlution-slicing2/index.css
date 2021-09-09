@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@100&family=Ubuntu:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-trans{
+    position:absolute;
+    background-color: rgba(231, 240, 242, 0.3);
+    height: 100%;
+    width: 47%;
+    z-index: -1;
+}
+body{
+    background:#FFFFFF;
+    width: 100%;
+    height: 100%;
+    margin: auto 0;
+}
+
+.cart{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+    left: 90.5%;
+    top: 6%;
+}
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 30px;
+    text-align: right;
+    padding-left: 6%;
+    padding-right: 7%;
+    padding-top: 1%;
+    bottom: -50px;
+    position: relative;
+    margin: auto 0;
+
+    color: rgba(0, 0, 0, 0.4);
+}
+ul {
+    list-style-type: none;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family: 'Roboto';
+}
+.rectangle-nav{
+    position: absolute;
+    width: 1px;
+    height: 25px;
+    left: 94%;
+    top: 55%;
+  background: #E7F0F2;
+}
+
+.product-display{
+    position: absolute;
+    padding-left: 12%;
+    top: 5%;
+    
+}
+.product-display img{
+    position: absolute;
+    width: 463px;
+    height: 507px;
+}
+.product-name{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 12.5%;
+    line-height: 34px;
+}
+.product-name p{
+    font-size: 36px;
+    font-weight: 900;
+    font-family: 'Roboto';
+
+}
+.price{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 30%;
+}
+
+.price p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #363A41;
+
+}
+.price .discount{
+    position: absolute;
+    font-size: 12px;
+}
+
+.description{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 42%;
+    text-align: justify;
+    width: 400px;
+}
+.description p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: rgba(0, 0, 0, 0.3);
+
+}
+
+.type-clothes{
+    position: absolute;
+    left: 88%;
+    top: 78%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: flex-end;
+    text-align: right;
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.btn-display{
+    position: absolute;
+    top: 82%;
+    padding-left: 13%;
+}
+
+.btn-d-l{
+    position: absolute;
+    width: 37px;
+    height: 43px;
+    left: 76%;
+    background-color: #000000; 
+    border: none;
+    transition: 0.3s;
+}
+.btn-d-l img{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.btn-d-r{
+    position: absolute;
+    width: 37px;
+    height: 43px;
+    background-color: #000000; 
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-d-r img{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+.btn-order{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+ 
+}
+.btn-order a{
+    position: absolute;
+    text-align: center;
+    width: 147px;
+    height: 48px;
+    background: #000000;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+    font-size: 10px;
+    transition: 0.3s;
+    color: white;
+    text-decoration: none;
+
+}
+
+.btn-order a p{
+    position: absolute;
+    font-family: 'Ubuntu';
+    left: 19%;
+    top: 30%;
+    font-size: 14px;
+}
+
+.size label{
+    margin-right: 1em;
+}
+.size{
+    position: absolute;
+    text-align: left;
+    left: 50%;
+    top: 65%;
+    text-align: justify;
+    width: 200px;  
+}
+
+.size select{
+    position: absolute;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    
+}
+
+.bento-menu{
+    width: 5px;
+    height: 5px;
+    position: absolute;
+    top: 96%;
+    left: 50%;
+    float: center;
+    z-index: 1;
+    transform: translateY(-50%);
+}
+.bento-menu span{
+    width: 4px;
+    height: 4px;
+    background:#000000;
+    position: absolute;
+}
+.bento-menu span:nth-child(1){
+    top: 0;
+    left: 0;
+}
+.bento-menu span:nth-child(2){
+    top: 0;
+    left: 7px;
+}
+.bento-menu span:nth-child(3){
+    top: 0;
+    left: 14px;
+}
+.bento-menu span:nth-child(4){
+    top: 7px;
+    left: 0;
+}
+.bento-menu span:nth-child(5){
+    top: 7px;
+    left: 7px;
+}
+.bento-menu span:nth-child(6){
+    top: 7px;
+    left: 14px;
+}
+.bento-menu span:nth-child(7){
+    top: 14px;
+    left: 0;
+}
+.bento-menu span:nth-child(8){
+    top: 14px;
+    left: 7px;
+}
+.bento-menu span:nth-child(9){
+    top: 14px;
+    left: 14px;
+}
+
+.rectangle2{
+    width: 100%;
+    height: 5%;
+    background: #FFFFFF;
+    border: 0.5px solid #C4C4C4;
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    transition: 0.3;
+}
+
+
+
+.navbar a:after{
+    content: "";
+    position: absolute;
+    background-color: #000000;
+    height: 0;
+    width: 2px;
+    right: 6%;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+.navbar a:hover:after{
+    height:30px;
+}
+
+.btn-d-l:hover{
+    background: rgb(199, 199, 199);
+}
+.btn-d-r:hover{
+    background: rgb(199, 199, 199);
+}
+
+.btn-order a:hover{
+    background: rgb(255, 255, 255);
+    width: 150px;
+    height: 45px;
+    color: black;
+
+}
